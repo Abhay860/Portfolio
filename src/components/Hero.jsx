@@ -14,7 +14,7 @@ const Hero = ({ darkMode }) => {
     { icon: instagram, alt: "Instagram", link: "https://www.instagram.com/abhay_sagar_" },
     { icon: facebook, alt: "Facebook", link: "https://www.facebook.com/abhaysagar.abhaysagar.9" },
     { icon: github, alt: "GitHub", link: "https://github.com/Abhay860" },
-    { icon: linkedin, alt: "LinkedIn", link: "www.linkedin.com/in/abhay-sagar-41578918b" },
+    { icon: linkedin, alt: "LinkedIn", link: "https://www.linkedin.com/in/abhay-sagar-41578918b" },
   ];
 
   const theme = darkMode

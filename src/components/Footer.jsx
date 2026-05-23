@@ -38,7 +38,7 @@ const Footer = ({ darkMode }) => {
                   color: 'transparent'
                 }}
               >
-               Laravel & React
+                Laravel & React
               </span>
             </p>
           </div>
@@ -55,9 +55,11 @@ const Footer = ({ darkMode }) => {
             </a>
 
             <a
-              href="https://www.linkedin.com/in/abhay-sagar-41578918b"
+              href="https://www.linkedin.com/in/abhay-sagar-41578918b/"
+              target="_blank"
+              rel="noopener noreferrer"
               className="w-10 h-10 rounded-full flex items-center justify-center transition-all duration-300 
-              bg-[#374151] text-white hover:scale-110 hover:bg-gradient-to-r hover:from-orange-500 hover:to-amber-500"
+  bg-[#374151] text-white hover:scale-110 hover:bg-gradient-to-r hover:from-orange-500 hover:to-amber-500"
             >
               <FaLinkedin />
             </a>

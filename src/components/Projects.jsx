@@ -14,6 +14,8 @@ const Projects = ({ darkMode }) => {
       description: "Developed a Full-stack E-Commerce Platform using React and Laravel.",
       image: project1,
       tags: ["React", "Laravel", "Bootstrap", "VueJS"],
+      github: "https://github.com/Abhay860/frontend.git",
+      live: "https://abhay860.github.io/Portfolio",
     },
     {
       id: 2,
@@ -21,6 +23,8 @@ const Projects = ({ darkMode }) => {
       description: "Developed an Online Auction Platform using Laravel with real-time bidding functionality.",
       image: project3,
       tags: ["React", "Laravel", "Bootstrap", "Figma"],
+      github: "https://github.com/yourusername/auction-project",
+      live: "https://abhay860.github.io/Portfolio",
     },
     {
       id: 3,
@@ -28,6 +32,8 @@ const Projects = ({ darkMode }) => {
       description: "Built a blog management system with content creation, editing, and publishing features.",
       image: project2,
       tags: ["React", "Laravel", "Bootstrap"],
+      github: "https://github.com/Abhay860/BlogManagement.git",
+      live: "https://abhay860.github.io/Portfolio",
     },
     {
       id: 4,
@@ -35,6 +41,8 @@ const Projects = ({ darkMode }) => {
       description: "Contributed to the development of a full-stack transportation management application in a team environment.",
       image: project4,
       tags: ["PHP", "Laravel", "Bootstrap"],
+      github: "https://github.com/Abhay860/chandigroup.git",
+      live: "https://abhay860.github.io/Portfolio",
     },
     {
       id: 5,
@@ -42,6 +50,8 @@ const Projects = ({ darkMode }) => {
       description: "Engineered a real-time chat application with instant messaging and responsive user experience.",
       image: project5,
       tags: ["PHP", "Bootstrap", "Socket.io"],
+      github: "https://github.com/Abhay860/ChatApplication.git",
+      live: "https://abhay860.github.io/Portfolio",
     },
     {
       id: 6,
@@ -49,6 +59,8 @@ const Projects = ({ darkMode }) => {
       description: "Contributed to the development of a dairy management system in a team environment.",
       image: project6,
       tags: ["PHP", "Laravel", "Bootstrap"],
+      github: "#",
+      live: "https://abhay860.github.io/Portfolio",
     },
   ]
 
@@ -119,7 +131,7 @@ const Projects = ({ darkMode }) => {
                   className="text-xl font-bold mb-2"
                   style={{
                     color: darkMode ? 'white' : '#1f2937'
-                     
+
                   }}
                 >
                   {project.title}
@@ -152,7 +164,7 @@ const Projects = ({ darkMode }) => {
                 {/* FIXED BUTTON SECTION */}
                 <div className="flex gap-2">
                   <a
-                    href="#"
+                    href={project.github}
                     style={{
                       backgroundColor: darkMode ? '#374151' : '#f3f4f6',
                       color: darkMode ? 'white' : '#374151'
@@ -164,7 +176,7 @@ const Projects = ({ darkMode }) => {
                   </a>
 
                   <a
-                    href="#"
+                    href={project.live}
                     style={{
                       background: 'linear-gradient(to right, #f97316, #f59e0b)'
                     }}
